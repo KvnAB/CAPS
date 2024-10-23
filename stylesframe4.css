@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.wallstreetenglish.cl/hs-fs/hubfs/smm-post/blog-posts/10-exoresiones-de-negocios-en-ingles.jpeg?width=1206&name=10-exoresiones-de-negocios-en-ingles.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(119, 119, 119, 0.7);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.auth-buttons button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Efecto al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-grid {
+    display: grid; /* Cambiado a grid para facilitar la disposición */
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 20px; /* Espacio entre tarjetas */
+    width: 100%; /* Ancho completo del contenedor */
+}
+
+.service-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s;
+    height: 400px; /* Aumentar altura de la tarjeta */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Efecto al pasar el mouse */
+}
+
+.image-container {
+    width: 100%; /* Ancho completo de la tarjeta */
+    height: 200px; /* Aumentar altura de la imagen */
+    overflow: hidden; /* Ocultar desbordamiento */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.image-container img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantener relación de aspecto */
+    display: block; /* Asegurarse de que no haya espacio en la parte inferior */
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.service-card p {
+    color: #ffffff;
+}
+
+.view-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more:hover {
+    background-color: #444444;
+    transform: scale(1.05); /* Efecto al pasar el mouse */
+}

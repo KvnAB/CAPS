@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - C.A.P.S.</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesregister.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>C.A.P.S.</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Búsqueda De Servicios">
+                <button><i class="bi bi-search"></i></button>
+            </div>
+            <div class="register-btn">
+                <button><i class="bi bi-person-fill-add"></i> Registrarse</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="login-container">
+            <form action="#" method="post">
+                <h2>Registrarse</h2>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="text" name="cc" placeholder="C.C" required>
+                <input type="tel" name="phone" placeholder="Número de celular (+57)" required>
+                <input type="text" name="fullName" placeholder="Nombre completo" required>
+                <input type="text" name="city" placeholder="Ciudad de residencia" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

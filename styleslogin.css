@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.wallstreetenglish.cl/hs-fs/hubfs/smm-post/blog-posts/10-exoresiones-de-negocios-en-ingles.jpeg?width=1206&name=10-exoresiones-de-negocios-en-ingles.jpeg'); /* Fondo de la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(119, 119, 119, 0.7); /* Fondo semi-transparente */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.register-btn button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.login-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container form h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    
+    
+}
+
+.login-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.login-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.login-container form a {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container form a:hover {
+    text-decoration: underline;
+    
+}

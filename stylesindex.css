@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.wallstreetenglish.cl/hs-fs/hubfs/smm-post/blog-posts/10-exoresiones-de-negocios-en-ingles.jpeg?width=1206&name=10-exoresiones-de-negocios-en-ingles.jpeg'); /* Fondo de la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para incluir footer */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(119, 119, 119, 0.7); /* Fondo semi-transparente */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.auth-buttons {
+    display: flex; /* Usar flexbox para alinear los botones */
+    align-items: center; /* Centrar verticalmente los botones */
+}
+
+.auth-buttons button {
+    background-color: #ffffff; /* Color de fondo blanco */
+    color: rgb(0, 0, 0); /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-left: 10px; /* Espacio entre los botones */
+}
+
+.auth-buttons button:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+}
+
+.info-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Ajustar para no cubrir el header */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.info-box h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.info-box p {
+    color: #fff; /* Color del texto */
+}
+
+footer {
+    background-color: rgba(119, 119, 119, 0.7);
+    width: 100%;
+    padding: 20px 0; /* Espacio superior e inferior */
+    text-align: center; /* Centrar el texto del footer */
+    position: relative; /* Permitir que se coloque después del contenido */
+}
+
+.footer-content {
+    color: #fff; /* Color del texto */
+}
+
+.footer-links {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 10px 0; /* Espaciado vertical */
+}
+
+.footer-links li {
+    display: inline; /* Mostrar en línea */
+    margin: 0 10px; /* Espacio entre enlaces */
+}
+
+.footer-links a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+.social-icons {
+    margin-top: 10px; /* Espacio entre el texto y los íconos */
+}
+
+.social-icons a {
+    color: #fff; /* Color de los íconos */
+    font-size: 24px; /* Tamaño de los íconos */
+    margin: 0 10px; /* Espaciado entre los íconos */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.social-icons a:hover {
+    opacity: 0.8; /* Efecto de opacidad al pasar el ratón */
+}
